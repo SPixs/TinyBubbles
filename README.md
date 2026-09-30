@@ -15,9 +15,9 @@
 ![6502 assembly](https://img.shields.io/badge/asm-6502%2F6510-40318d?style=for-the-badge)
 ![KickAssembler 5.16](https://img.shields.io/badge/KickAssembler-5.16-887ecb?style=for-the-badge)
 
-<img src="media/tinybubble.gif" width="704" alt="TinyBubbles: aiming, wall bounces, bubbles popping and falling">
+<a href="https://spixs.github.io/TinyBubbles/"><img src="media/tinybubble.gif" width="704" alt="TinyBubbles: aiming, wall bounces, bubbles popping and falling. Click to play in your browser"></a>
 
-<sub>The first 14 shots of a real game in VICE, up to a 130-point combo.</sub>
+<sub>The first 14 shots of a real game in VICE, up to a 130-point combo. <b>Click it to play in your browser.</b></sub>
 
 [Play](#play) · [4 KB](#the-4-kb-challenge) · [Rules](#rules) · [Under the hood](#under-the-hood) · [Building](#building)
 
@@ -27,7 +27,9 @@
 
 ## Play
 
-🎮 **[Play it in your browser](https://spixs.github.io/TinyBubbles/)**: nothing to install (arrow keys to aim, <kbd>X</kbd> to fire).
+<div align="center">
+<a href="https://spixs.github.io/TinyBubbles/"><img src="media/play-in-browser.gif" width="736" alt="Click here to play TinyBubbles in your browser: no install, arrow keys to aim, X to fire"></a>
+</div>
 
 Or grab the `.d64` / `.prg` from the **[latest release](https://github.com/SPixs/TinyBubbles/releases/latest)** or **[itch.io](https://spixs.itch.io/tinybubbles)**, and run it in [VICE](https://vice-emu.sourceforge.io/):
 
@@ -184,6 +186,10 @@ project*.ctm       CharPad projects
 media/             images for this README
 docs/              the browser version (GitHub Pages + EmulatorJS)
 ```
+
+## License
+
+TinyBubbles is free software, released under the [GNU General Public License v3.0](LICENSE).
 
 ## Credits
 

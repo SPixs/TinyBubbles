@@ -15,9 +15,9 @@
 ![Assembleur 6502](https://img.shields.io/badge/asm-6502%2F6510-40318d?style=for-the-badge)
 ![KickAssembler 5.16](https://img.shields.io/badge/KickAssembler-5.16-887ecb?style=for-the-badge)
 
-<img src="media/tinybubble.gif" width="704" alt="TinyBubbles : visée, rebonds, bulles qui éclatent et qui tombent">
+<a href="https://spixs.github.io/TinyBubbles/"><img src="media/tinybubble.gif" width="704" alt="TinyBubbles : visée, rebonds, bulles qui éclatent et qui tombent. Cliquer pour jouer dans le navigateur"></a>
 
-<sub>Les 14 premiers tirs d'une vraie partie dans VICE, jusqu'à un combo à 130 points.</sub>
+<sub>Les 14 premiers tirs d'une vraie partie dans VICE, jusqu'à un combo à 130 points. <b>Clique dessus pour jouer dans ton navigateur.</b></sub>
 
 [Jouer](#jouer) · [4 Ko](#le-défi-des-4-ko) · [Règles](#règles) · [Sous le capot](#sous-le-capot) · [Construire](#construire)
 
@@ -27,7 +27,9 @@
 
 ## Jouer
 
-🎮 **[Jouer dans le navigateur](https://spixs.github.io/TinyBubbles/)** : rien à installer (flèches pour viser, <kbd>X</kbd> pour tirer).
+<div align="center">
+<a href="https://spixs.github.io/TinyBubbles/"><img src="media/play-in-browser.fr.gif" width="736" alt="Clique ici pour jouer à TinyBubbles dans ton navigateur : rien à installer, flèches pour viser, X pour tirer"></a>
+</div>
 
 Ou récupérer le `.d64` / `.prg` dans la **[dernière release](https://github.com/SPixs/TinyBubbles/releases/latest)** ou sur **[itch.io](https://spixs.itch.io/tinybubbles)**, puis le lancer dans [VICE](https://vice-emu.sourceforge.io/) :
 
@@ -184,6 +186,10 @@ project*.ctm       projets CharPad
 media/             images de ce README
 docs/              la version navigateur (GitHub Pages + EmulatorJS)
 ```
+
+## Licence
+
+TinyBubbles est un logiciel libre, distribué sous [licence publique générale GNU v3.0](LICENSE).
 
 ## Crédits
 

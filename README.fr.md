@@ -8,6 +8,7 @@
 
 🏆 **Vainqueur de [The C64 'Cassette 50' Charity Competition](https://itch.io/jam/the-c64-cassette-50-charity-competition) (2021)**
 
+[![Jouer dans le navigateur](https://img.shields.io/badge/jouer-dans_le_navigateur-8a7bd6?style=for-the-badge&logo=commodore&logoColor=white)](https://spixs.github.io/TinyBubbles/)
 [![Jouer sur itch.io](https://img.shields.io/badge/jouer_sur-itch.io-fa5c5c?style=for-the-badge&logo=itchdotio&logoColor=white)](https://spixs.itch.io/tinybubbles)
 ![Taille](https://img.shields.io/badge/taille-3%20810_%2F_4%20096_octets-9ae29b?style=for-the-badge)
 ![Commodore 64](https://img.shields.io/badge/Commodore_64-PAL-6c5eb5?style=for-the-badge)
@@ -26,10 +27,12 @@
 
 ## Jouer
 
-Le jeu se télécharge sur **[itch.io](https://spixs.itch.io/tinybubbles)**. L'image disque est aussi dans ce dépôt, [`bin/Bubble.d64`](bin/Bubble.d64) :
+🎮 **[Jouer dans le navigateur](https://spixs.github.io/TinyBubbles/)** : rien à installer (flèches pour viser, <kbd>X</kbd> pour tirer).
+
+Ou récupérer le `.d64` / `.prg` dans la **[dernière release](https://github.com/SPixs/TinyBubbles/releases/latest)** ou sur **[itch.io](https://spixs.itch.io/tinybubbles)**, puis le lancer dans [VICE](https://vice-emu.sourceforge.io/) :
 
 ```sh
-x64sc -autostart bin/Bubble.d64
+x64sc -autostart TinyBubbles.d64
 ```
 
 Sur une vraie machine (ou une Ultimate 64) :
@@ -179,6 +182,7 @@ builds/            builds intermédiaires retrouvés sur la clé USB d'origine
 disk.d64           image du build de main.asm du 29 janvier
 project*.ctm       projets CharPad
 media/             images de ce README
+docs/              la version navigateur (GitHub Pages + EmulatorJS)
 ```
 
 ## Crédits

@@ -60,6 +60,20 @@ TinyBubbles was written for **The C64 'Cassette 50' Charity Competition**, run o
 
 TinyBubbles took **first place overall**. It is one of the 56 games on the *Cassette 50+ Collectors USB Tape*, whose proceeds go to the Special Effect charity.
 
+## Videos & press
+
+<table>
+<tr>
+<td align="center" width="50%"><a href="https://www.youtube.com/watch?v=q2pybG4VZs8"><img src="https://img.youtube.com/vi/q2pybG4VZs8/hqdefault.jpg" width="360" alt="Tiny Bubbles - 4KB Entry for The C64 'Cassette 50' Charity Competition"></a><br><sub><b>Competition entry video</b> · Pixs</sub></td>
+<td align="center" width="50%"><a href="https://www.youtube.com/watch?v=o-7IsazNyLg"><img src="https://img.youtube.com/vi/o-7IsazNyLg/hqdefault.jpg" width="360" alt="Commodore 64 - Tiny bubbles - The C64 Cassette 50 Charity Competition, by C64 MASTERS"></a><br><sub><b>Video by C64 MASTERS</b></sub></td>
+</tr>
+</table>
+
+> *"The overall winner of the competition was TinyBubbles, a game worth of a release in its own right."*<br>
+> — [Phoenix Ware](https://www.phoenixware.co.uk/product/cassette-50-collectors-usb-tape/), co-organiser of the competition
+
+Listed on [Lemon64](https://www.lemon64.com/game/tinybubbles) · [LaunchBox Games Database](https://gamesdb.launchbox-app.com/games/details/152136-tinybubbles)
+
 ## Rules
 
 - The bubble flies towards the crosshair, **bounces off the walls** and sticks to the first bubble (or the ceiling) it touches.

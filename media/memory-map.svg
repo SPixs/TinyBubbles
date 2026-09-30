@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="856" height="714" viewBox="0 0 856 714" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<rect width="856" height="714" rx="14" fill="#161629"/>
+<text x="64" y="34" fill="#e8e8ff" font-size="19" font-weight="700">Tiny Bubble · tout le jeu en 4 Ko</text>
+<text x="64" y="56" fill="#9a9ac8" font-size="12.5">$0000–$0FFF · une ligne par page de 256 octets · fichier PRG $0120–$0FFF = 3 808 octets</text>
+<text x="54" y="94.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0000</text>
+<text x="54" y="124.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0100</text>
+<text x="54" y="154.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0200</text>
+<text x="54" y="184.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0300</text>
+<text x="54" y="214.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0400</text>
+<text x="54" y="244.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0500</text>
+<text x="54" y="274.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0600</text>
+<text x="54" y="304.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0700</text>
+<text x="54" y="334.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0800</text>
+<text x="54" y="364.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0900</text>
+<text x="54" y="394.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0A00</text>
+<text x="54" y="424.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0B00</text>
+<text x="54" y="454.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0C00</text>
+<text x="54" y="484.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0D00</text>
+<text x="54" y="514.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0E00</text>
+<text x="54" y="544.0" fill="#7a7aa8" font-size="11.5" text-anchor="end">$0F00</text>
+<rect x="64" y="78" width="6" height="24" fill="#c18a4a" rx="2"/>
+<rect x="70" y="78" width="417" height="24" fill="#70a4b2" rx="2"/>
+<text x="77" y="94.0" font-size="11.5" fill="#12122a">variables en page zéro · grille · score</text>
+<rect x="487" y="78" width="345" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="64" y="108" width="96" height="24" fill="#d8d86a" rx="2"/>
+<text x="71" y="124.0" font-size="11.5" fill="#12122a">pile</text>
+<rect x="160" y="108" width="582" height="24" fill="#5fb15f" rx="2"/>
+<text x="167" y="124.0" font-size="11.5" fill="#12122a">Entry · InitInterrupt · InitWindow</text>
+<rect x="742" y="108" width="66" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="808" y="108" width="6" height="24" fill="#c18a4a" rx="2"/>
+<rect x="814" y="108" width="18" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="64" y="138" width="282" height="24" fill="#70a4b2" rx="2"/>
+<text x="71" y="154.0" font-size="11.5" fill="#12122a">tables de lignes · hiscore</text>
+<rect x="346" y="138" width="147" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="493" y="138" width="6" height="24" fill="#c18a4a" rx="2"/>
+<rect x="499" y="138" width="333" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<text x="506" y="154.0" font-size="11.5" fill="#9a9ac8">131 octets à zéro</text>
+<rect x="64" y="168" width="60" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="124" y="168" width="66" height="24" fill="#c18a4a" rx="2"/>
+<text x="131" y="184.0" font-size="11.5" fill="#12122a">vecteurs</text>
+<rect x="190" y="168" width="216" height="24" fill="#70a4b2" rx="2"/>
+<text x="197" y="184.0" font-size="11.5" fill="#12122a">arc sinus · joystick</text>
+<rect x="406" y="168" width="42" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="448" y="168" width="384" height="24" fill="#8a7bd6" rx="2"/>
+<text x="455" y="184.0" font-size="11.5" fill="#12122a">sprites bulle &amp; viseur</text>
+<rect x="64" y="198" width="768" height="24" fill="#8a7bd6" rx="2"/>
+<text x="71" y="214.0" font-size="11.5" fill="#12122a">RAM écran  ←  map.bin</text>
+<rect x="64" y="228" width="768" height="24" fill="#8a7bd6" rx="2"/>
+<rect x="64" y="258" width="768" height="24" fill="#8a7bd6" rx="2"/>
+<rect x="64" y="288" width="696" height="24" fill="#8a7bd6" rx="2"/>
+<rect x="760" y="288" width="48" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="808" y="288" width="24" height="24" fill="#c18a4a" rx="2"/>
+<rect x="64" y="318" width="768" height="24" fill="#8a7bd6" rx="2"/>
+<text x="71" y="334.0" font-size="11.5" fill="#12122a">charset.bin (48 caractères)</text>
+<rect x="64" y="348" width="384" height="24" fill="#8a7bd6" rx="2"/>
+<rect x="448" y="348" width="384" height="24" fill="#8a7bd6" rx="2"/>
+<text x="455" y="364.0" font-size="11.5" fill="#12122a">sprites du lanceur</text>
+<rect x="64" y="378" width="768" height="24" fill="#9ae29b" rx="2"/>
+<text x="71" y="394.0" font-size="11.5" fill="#12122a">code du jeu · IRQ · récursion · physique · SID</text>
+<rect x="64" y="408" width="768" height="24" fill="#9ae29b" rx="2"/>
+<rect x="64" y="438" width="768" height="24" fill="#9ae29b" rx="2"/>
+<rect x="64" y="468" width="768" height="24" fill="#9ae29b" rx="2"/>
+<rect x="64" y="498" width="768" height="24" fill="#9ae29b" rx="2"/>
+<rect x="64" y="528" width="465" height="24" fill="#9ae29b" rx="2"/>
+<rect x="529" y="528" width="87" height="24" fill="#2c2c44" fill-opacity="0.55" rx="2"/>
+<rect x="616" y="528" width="216" height="24" fill="#e07a7a" rx="2"/>
+<text x="623" y="544.0" font-size="11.5" fill="#12122a">3 tableaux</text>
+<rect x="64" y="569" width="14" height="14" rx="3" fill="#9ae29b"/>
+<text x="86" y="581" fill="#c8c8ee" font-size="12">Code</text>
+<rect x="448" y="569" width="14" height="14" rx="3" fill="#5fb15f"/>
+<text x="470" y="581" fill="#c8c8ee" font-size="12">Code d'init, puis place pour la pile</text>
+<rect x="64" y="595" width="14" height="14" rx="3" fill="#70a4b2"/>
+<text x="86" y="607" fill="#c8c8ee" font-size="12">Variables &amp; tables</text>
+<rect x="448" y="595" width="14" height="14" rx="3" fill="#8a7bd6"/>
+<text x="470" y="607" fill="#c8c8ee" font-size="12">Graphismes : écran, charset, sprites</text>
+<rect x="64" y="621" width="14" height="14" rx="3" fill="#c18a4a"/>
+<text x="86" y="633" fill="#c8c8ee" font-size="12">Vecteurs système &amp; démarrage auto</text>
+<rect x="448" y="621" width="14" height="14" rx="3" fill="#d8d86a"/>
+<text x="470" y="633" fill="#c8c8ee" font-size="12">Pile</text>
+<rect x="64" y="647" width="14" height="14" rx="3" fill="#e07a7a"/>
+<text x="86" y="659" fill="#c8c8ee" font-size="12">Tableaux</text>
+<rect x="448" y="647" width="14" height="14" rx="3" fill="#2c2c44" fill-opacity="0.55"/>
+<text x="470" y="659" fill="#c8c8ee" font-size="12">Inutilisé</text>
+<text x="64" y="698" fill="#7a7aa8" font-size="11.5">$01F8 : adresse de retour écrasée au chargement → démarrage auto · 29 octets libres avant les tableaux</text>
+</svg>

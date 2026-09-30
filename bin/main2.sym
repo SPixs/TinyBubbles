@@ -1,0 +1,180 @@
+.label bubbleCount=$76
+.label playerBubbleMoving=$d
+.label clearBurstBubbles=$ab4 {
+  .label loop=$ab6
+}
+.label CIAICR=$dc0d
+.label mainLoop=$a00 {
+}
+.label hiscore=$23c
+.label recurseNeighbors=$cf9 {
+  .label checkLeft=$d45
+  .label checkUpperLeft=$d10
+  .label checkLower=$d71 {
+  }
+  .label checkLowerRight=$da2
+  .label checkUpper=$cf9
+  .label checkLowerLeft=$d82
+  .label checkUpperRight=$d2c
+  .label checkRight=$d5c
+  .label end=$dbb
+}
+.label spriteBubble=$380
+.label spriteSupportRight=$9c0
+.label bubbleX=$14
+.label bubbleY=$15
+.label score=$77
+.label CI2ICR=$dd0d
+.label SINE_SIGHT_SCREEN_LOOKUP=$32a {
+}
+.label InitInterrupt=$189 {
+}
+.label drawScore=$ee9 {
+  .label end=$efa
+}
+.label playerBubbleGridX=$87
+.label SCROLY=$d011
+.label VECTOR2=$4
+.label playerBubbleGridY=$88
+.label burstCount=$89
+.label VECTOR1=$2
+.label level=$8c
+.label IRQMSK=$d01a
+.label recurseFunction=$cee {
+  .label functionVector=$cf7
+}
+.label InitScore=$edb {
+}
+.label InitSid=$f7a {
+}
+.label playBellSound=$b1a {
+}
+.label loadRandom=$f97 {
+}
+.label clearOrpheanBubbles=$b52 {
+  .label loop=$b71
+}
+.label LoadLevel=$f17 {
+  .label next=$f5e
+  .label decrunchGrid=$f3d
+  .label even=$f4a
+  .label odd=$f4e
+  .label noCarry=$f3a
+}
+.label resetBubblesStates=$b46 {
+  .label loop=$b48
+}
+.label fallenCount=$8a
+.label handleBurst=$a78 {
+  .label end=$ab3
+}
+.label InitWindow=$1b7 {
+  .label loop=$1b9 {
+    .label modifyScreenPointer=$1c3
+    .label innerLoop=$1bd
+  }
+}
+.label playPocSound=$ae2 {
+}
+.label Level2=$fd0
+.label Level3=$fe8
+.label WINDOW_ROW_COLOR_LOOKUP=$200
+.label Level1=$fb8
+.label VECTOR4=$8
+.label highlightBursted=$34a
+.label VECTOR3=$6
+.label TMP1=$c
+.label spriteSupportLeft=$980
+.label playerSightYCorrected=$80
+.label CheckPlayerMouve=$34b {
+  .label left=$353
+  .label end=$36e
+  .label right=$35e
+}
+.label bubbleGrid=$16
+.label computePlayerColor=$f70 {
+}
+.label recurseBurst=$dbc {
+  .label recurseCore=$dc6
+}
+.label playerSightY=$7f
+.label playerSightX=$7e
+.label playerBubbleXW=$81
+.label GRID_X=$a
+.label Entry=$120 {
+}
+.label playExplosionSound=$b00 {
+}
+.label stopSound=$b3d {
+}
+.label RASTER=$d012
+.label incrementLevel=$eb3 {
+}
+.label bubbleColor=$13
+.label AppendPlayerBubble=$cb3 {
+  .label notLostGame=$ccd
+  .label end=$ce7
+}
+.label recurseAttached=$b85 {
+  .label recurseCore=$b8f
+}
+.label burstFrameCounter=$8b
+.label InitPlayerBubble=$a03 {
+}
+.label playerBubbleDY=$10
+.label playerBubbleDX=$e
+.label playerBubblePreviousY=$86
+.label gridXYtoIndex=$e86 {
+}
+.label playerBubblePreviousX=$85
+.label InitPlayerSight=$241 {
+}
+.label playerBubbleYW=$83
+.label updateScore=$ac4 {
+}
+.label MovePlayerBubble=$de6 {
+  .label checkLeftBorder=$e21
+  .label reverseDirection=$e29
+  .label updatePlayerSprite=$e7b
+  .label end=$e85
+  .label oddLine=$e64
+  .label evenLine=$e4a
+}
+.label GRID_Y=$b
+.label playerBubbleEnable=$7c
+.label resetLevel=$eca {
+}
+.label UpdateHighscore=$efb {
+  .label update=$f0c
+  .label end=$f0b
+}
+.label charToDraw=$12
+.label InitSupport=$a33 {
+}
+.label DrawGrid2=$ba9 {
+  .label loop=$bbd {
+    .label nextCharInRow=$c38
+    .label drawChar=$c30
+    .label oddBubbleRow=$bde {
+      .label computeBubbleCharToDraw=$bee
+      .label empty=$c05
+    }
+    .label emptyChar=$c2e
+    .label nextChar=$c0c
+    .label evenBubbleRow=$bd9 {
+    }
+    .label notBursted=$c25
+    .label rowLoop=$bd0
+  }
+}
+.label updateSight=$c4b {
+  .label end=$cb2
+}
+.label spriteSight=$3c0
+.label playerBubbleColor=$7d
+.label addScore1=$e8f {
+  .label loop=$e99
+}
+.label IRQHandler=$a57 {
+  .label end=$a72
+}

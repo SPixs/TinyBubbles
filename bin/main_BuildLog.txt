@@ -1,0 +1,32 @@
+parsing
+flex pass 1
+flex pass 2
+Output pass
+Writing prg file: X:\C64\Projects\TinyBubble\bin\main.prg
+
+Memory Map
+----------
+Default-segment:
+  *$008b-$0090 Zeropage
+  *$0100-$011f Stack
+  $0120-$01e7 Code
+  *$01ed-$01f9 VariablesLow
+  $01f8-$01f9 Stack override
+  $0200-$026e VariablesHigh
+  $028f-$0290 Keyboard setup vector
+  $0291-$0313 VariablesHigh
+  $0314-$0315 IRQ vector
+  $0316-$0317 RESET vector
+  $0318-$0319 NMI vector
+  $031a-$0329 Kernal Vector
+  $032a-$0369 VariablesHigh
+  $0380-$03bf bubbleSprite
+  $03c0-$03ff sightSprite
+  $0400-$07e7 VideoMatrix
+  $0800-$09fc Charset
+  $09fd-$0d2b Code
+  $0f40-$0f9f Grid
+  $0fa0-$0fe7 Levels
+
+Writing Vice symbol file: X:\C64\Projects\TinyBubble\bin\main.vs
+Writing Symbol file: main.sym

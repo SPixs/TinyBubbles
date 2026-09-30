@@ -1,0 +1,35 @@
+parsing
+flex pass 1
+flex pass 2
+Output pass
+Writing d64 file: Bubble.d64
+
+Memory Map
+----------
+CODE-segment:
+  *$0002-$008c Zeropage
+  *$0100-$011f Stack
+  $0120-$01e1 Code
+  *$01ed-$01ec TrashedVariables
+  $01f8-$01f9 Stack override
+  $0200-$025d VariablesHigh
+  $028f-$0290 Keyboard setup vector
+  $0291-$0313 VariablesHigh
+  $0314-$0315 IRQ vector
+  $0316-$0317 RESET vector
+  $0318-$0319 NMI vector
+  $031a-$0329 Kernal Vector
+  $032a-$0371 VariablesHigh
+  $0380-$03bf bubbleSprite
+  $03c0-$03ff sightSprite
+  $0400-$07e7 VideoMatrix
+  *$07f8-$07f7 SpritesPointers
+  $0800-$097f Charset
+  $0980-$09bf supportSpriteLeft
+  $09c0-$0a32 supportRightSprite
+  $0a33-$0b84 Code
+  $0b85-$0f9a AAA
+  $0fb8-$0fff Levels
+
+Writing Vice symbol file: X:\C64\Projects\TinyBubble\bin\main2.vs
+Writing Symbol file: main2.sym

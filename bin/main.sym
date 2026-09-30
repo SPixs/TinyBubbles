@@ -1,87 +1,85 @@
-.label playerSightYCorrected=$1f3
-.label DrawGrid=$a62 {
-  .label bubbleX=$b72
-  .label bubbleY=$b73
-  .label setColor=$b49
-  .label drawChar=$b34
-  .label charToDraw=$b70
-  .label loop=$a6a
-  .label oddBubbleRow=$ac5 {
-    .label empty=$b04
+.label playerSightYCorrected=$1f1
+.label DrawGrid=$a0e {
+  .label bubbleX=$b0a
+  .label bubbleY=$b0b
+  .label setColor=$ae6
+  .label drawChar=$ad2
+  .label charToDraw=$b08
+  .label loop=$a14
+  .label oddBubbleRow=$a68 {
+    .label empty=$aa2
   }
-  .label bubbleColor=$b71
-  .label nextChar=$b0c
-  .label evenBubbleRow=$a99 {
+  .label bubbleColor=$b09
+  .label nextChar=$aaa
+  .label evenBubbleRow=$a40 {
   }
-  .label nextRowChar=$b4e
-  .label rowLoop=$a8e
+  .label nextRowChar=$aeb
+  .label rowLoop=$a36
 }
-.label CheckPlayerMouve=$172 {
-  .label left=$17a
-  .label refreshCounter=$1a3
-  .label end=$19f
-  .label right=$18a
+.label CheckPlayerMouve=$34a {
+  .label left=$352
+  .label end=$377
+  .label right=$362
 }
-.label playerBubbleMoving=$23f
-.label computePlayerColor=$cf0 {
+.label playerBubbleMoving=$b
+.label computePlayerColor=$c8f {
 }
 .label CIAICR=$dc0d
-.label playerSightY=$1f2
-.label playerSightX=$1f1
+.label playerSightY=$1f0
+.label playerSightX=$1ef
 .label spriteBubble=$380
-.label playerBubbleXW=$1f4
-.label playerBubbleY=$1ef
-.label GRID_X=$23c
+.label playerBubbleXW=$1f2
+.label GRID_X=$8
 .label Entry=$120 {
 }
 .label RASTER=$d012
-.label playerBubbleX=$1ee
-.label BubbleGrid=$f40
+.label BubbleGrid=$10
 .label CI2ICR=$dd0d
 .label SINE_SIGHT_SCREEN_LOOKUP=$32a {
 }
-.label InitPlayerBubble=$1a4 {
+.label InitPlayerBubble=$16e {
 }
-.label InitInterrupt=$9fd {
+.label InitInterrupt=$1b9 {
 }
-.label playerBubbleGridX=$1f8
-.label playerBubbleDY=$242
+.label playerBubbleDY=$e
+.label playerBubbleGridX=$1f6
 .label SCROLY=$d011
-.label VECTOR2=$8d
-.label playerBubbleGridY=$1f9
-.label playerBubbleDX=$240
-.label VECTOR1=$8b
+.label VECTOR2=$4
+.label playerBubbleDX=$c
+.label playerBubbleGridY=$1f7
+.label VECTOR1=$2
 .label IRQMSK=$d01a
-.label InitPlayerSight=$244 {
+.label InitPlayerSight=$23c {
 }
-.label playerBubbleYW=$1f6
-.label MovePlayerBubble=$c00 {
-  .label end=$cba
-  .label oddLine=$c91
+.label playerBubbleYW=$1f4
+.label MovePlayerBubble=$b81 {
+  .label end=$c38
+  .label oddLine=$c0f
 }
-.label computeNeighbors=$cbb {
-  .label neighbors=$cbc
+.label computeNeighbors=$c39 {
+  .label neighbors=$c55
+  .label oddLine=$c40
 }
-.label GRID_Y=$23d
-.label LoadLevel=$cc2 {
+.label GRID_Y=$9
+.label LoadLevel=$c5b {
 }
 .label playerBubbleEnable=$1ed
-.label getBubbleColor=$d09 {
-  .label gridX=$d2a
-  .label gridY=$d2b
+.label getBubbleColor=$ca8 {
+  .label gridX=$cc9
+  .label gridY=$cca
 }
-.label InitWindow=$a2b {
-  .label loop=$a2b
-  .label done=$a61
+.label InitWindow=$9e8 {
+  .label loop=$9f2 {
+  }
 }
-.label updateSight=$b74 {
-  .label end=$bff
+.label updateSight=$b0c {
+  .label end=$b80
 }
 .label spriteSight=$3c0
 .label WINDOW_ROW_COLOR_LOOKUP=$200
-.label Level1=$fa0
-.label playerBubbleColor=$1f0
-.label VECTOR3=$8f
-.label TMP1=$23e
-.label IRQHandler=$9e8 {
+.label Level1=$fb8
+.label playerBubbleColor=$1ee
+.label VECTOR3=$6
+.label TMP1=$a
+.label IRQHandler=$1a4 {
 }

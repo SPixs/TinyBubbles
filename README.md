@@ -72,6 +72,9 @@ TinyBubbles took **first place overall**. It is one of the 56 games on the *Cass
 > *"The overall winner of the competition was TinyBubbles, a game worth of a release in its own right."*<br>
 > — [Phoenix Ware](https://www.phoenixware.co.uk/product/cassette-50-collectors-usb-tape/), co-organiser of the competition
 
+> *"AND THE WINNER IS The awesome TinyBubbles, this is a worthy winner of the overall comp."*<br>
+> — [Official results of the competition](https://itch.io/jam/the-c64-cassette-50-charity-competition/topic/1339007/-the-results-of-the-c64-cassette-50-charity-competition), April 22, 2021
+
 Listed on [Lemon64](https://www.lemon64.com/game/tinybubbles) · [LaunchBox Games Database](https://gamesdb.launchbox-app.com/games/details/152136-tinybubbles)
 
 ## Rules

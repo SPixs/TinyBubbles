@@ -182,6 +182,6 @@ Le projet a été retrouvé sur une clé USB. Les dates des fichiers racontent u
 ## Crédits
 
 Écrit en 2021 par **S. Mametz**.
-Outils : [KickAssembler](http://theweb.dk/KickAssembler/) (Mads Nielsen), [CharPad](https://subchristsoftware.itch.io/charpad-free-edition) (Subchrist Software), [VICE](https://vice-emu.sourceforge.io/).
+Outils : [KickAssembler](http://theweb.dk/KickAssembler/) (Mads Nielsen), CharPad (Subchrist Software), [VICE](https://vice-emu.sourceforge.io/).
 
 <sub>Les images de ce README ont été capturées dans VICE 3.7.1 : une partie jouée par un petit bot, qui pilote les lectures du joystick à travers le moniteur binaire de l'émulateur. Pour les tableaux 2 et 3, la grille a été vidée par le moniteur, puis c'est le jeu qui a chargé le tableau suivant. Le charset et les sprites sont décodés directement depuis le binaire.</sub>

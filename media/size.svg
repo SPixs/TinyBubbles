@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="856" height="118" viewBox="0 0 856 118" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<defs><pattern id="h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3" height="6" fill="#e07a7a" fill-opacity="0.45"/></pattern></defs>
+<rect width="856" height="118" rx="14" fill="#161629"/>
+<text x="32" y="32" fill="#e8e8ff" font-size="15" font-weight="700">Cassette 50 rule: the whole game must fit in 4 KB</text>
+<rect x="32" y="48" width="792" height="34" rx="4" fill="#2c2c44"/>
+<rect x="32" y="48" width="737" height="34" rx="4" fill="#9ae29b"/>
+<rect x="769" y="48" width="55" height="34" fill="url(#h)"/>
+<line x1="824" y1="42" x2="824" y2="88" stroke="#e07a7a" stroke-width="2"/>
+<text x="44" y="70.0" fill="#12122a" font-size="14" font-weight="700">TinyBubbles PRG · 3,810 bytes</text>
+<text x="816" y="106" fill="#e07a7a" font-size="12.5" text-anchor="end">286 bytes to spare ↑</text>
+<text x="32" y="106" fill="#9a9ac8" font-size="12.5">0</text>
+<text x="824" y="32" fill="#e07a7a" font-size="12.5" text-anchor="end">4 KB = 4,096 bytes</text>
+</svg>
